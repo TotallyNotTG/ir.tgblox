@@ -1,0 +1,75 @@
+.body-dark-theme {
+    background-color: rgb(30,30,30);
+    color:white;
+}
+.light-text {
+    color: black;
+}
+.top-nav {
+    position: fixed;
+    width: 100%;
+    height: 102px;
+    background-color: rgb(15,15,15);
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.nav-img {
+    width: 1519px;
+    height: 604px;
+    background: rgb(30,30,30) url(img/Darkened-background.png) no-repeat center;
+    margin-left: -8px;
+}
+.logo {
+    height: 28.6px;
+    margin-top: 36px;
+    margin-left: 110px;
+}
+.nav-pages {
+    width: 822px;
+    float: right;
+    margin-top: 36px;
+}
+.pages {
+    margin-left: 30px;
+}
+.pages:hover {
+    color: rgb(28, 116, 210);
+}
+.top-section {
+    width: 1000px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.corp-overview {
+    margin-top: 400px;
+}
+.revenue {
+    width: 1519px;
+    height: 387px;
+    background: rgb(30,30,30) url(img/white-background.jpg) no-repeat center;
+    background-size: 100%;
+    margin-left: -8px;
+}
+.lighten {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.6);
+}
+.revenue-num {
+    height: 167px;
+    width: 200px;
+    background-color: rgba(255,255,255,0.8);
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-content {
+    width: 1100px;
+    height: fit-content;
+}
+.links {
+    width: 300px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

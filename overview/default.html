@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>
+    TGBlox - Investor Relations
+</title>
+
+    <script src="/Users/dalen/Documents/Game%20status/ir.tgblox.com/Res.u98dfa=91euj-en-us.js"></script>
+
+    <link href="fonts/font-face9uf.a8uhabiufa8ufs.=enjufsduai.css" rel="stylesheet">
+    <!--[metas]-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="/Users/dalen/Documents/Game%20status/ir.tgblox.com/js/9u.9us.js"></script>
+    <!--<script src="">
+    -->
+    <script src="/Users/dalen/Documents/Game%20status/ir.tgblox.com/js/9f9us9dufer.08uaofa.js"></script>
+    <link type="image/x-icon" rel="icon" media="" href="https://totallynottg.github.io/web.tgblox/tr.tgnblx.com/Olliebloxlogov2.png" />
+    <link type="image/x-icon" rel="shortcut icon" media="" href="https://totallynottg.github.io/web.tgblox/tr.tgnblx.com/Olliebloxlogov2.png" />
+    <link href="u.adffd80.B.d8uaif.css" rel="stylesheet">
+    <!--Important Ends-->
+    <!--© 2023 Olieblox Corporation. All Rights Reserved.-->
+    <script>
+        window.i18nData = {
+    "en": {
+        "": {
+            "plural-forms": "nplurals=2; plural=n>1;",
+            "language": "en"
+        }
+    }
+};
+
+    </script>
+    <script>
+        window.addEventListener("load", () => {
+    setTimeout(() => {
+      startRecordingUserInteraction();
+    }, 0);
+  });
+    </script>
+    <script>
+        var localStorageName = 'efUserInteractionHistory';
+var maxLocalStorageSize = 2500000;
+function handleCurrentLocalStorageSize() {
+    var currentLocalStorageSize = (window.localStorage.getItem(localStorageName) || '').length;
+    if (currentLocalStorageSize >= maxLocalStorageSize) {
+        submitUserInteractionHistory();
+    }
+}
+function reportUserInteraction(event, entityId, domain) {
+    var isUserInteractionEnabled = document.getElementById('userInteractionEnabled');
+    if (!isUserInteractionEnabled) {
+        return;
+    }
+    if (!entityId || !domain) {
+        return;
+    }
+    if (!supportLocalStorage()) {
+        return;
+    }
+    handleCurrentLocalStorageSize();
+    var userInteractionHistory = JSON.parse(window.localStorage.getItem(localStorageName)) || [];
+    userInteractionHistory.push({
+        'event_name': event,
+        'entity_id': entityId,
+        'domain': domain
+    });
+    try {
+        window.localStorage.setItem(localStorageName, JSON.stringify(userInteractionHistory));
+    } catch (error) {
+        console.error("Cannot Set LocalStorage");
+    }
+}
+function startRecordingUserInteraction() {
+    if (!supportLocalStorage()) {
+        return;
+    }
+    submitUserInteractionHistory();
+    setInterval(submitUserInteractionHistory, 20000);
+}
+
+    </script>
+</head>
+<body class="body-dark-theme" style="display: block;">
+    <div class="whole-content">
+        <div class="top-content">
+            <nav class="top-nav">
+                <div class="nav-contents">
+                    <a href="https://totallynottg.github.io/corp.tgblox/home">
+                        <img src="https://totallynottg.github.io/corp.tgblox/l/img/text-1669918561590.png" class="logo">
+                    </a>
+                    <div class="nav-pages">
+                        <a href="" class="pages">Overview</a>
+                        <a href="news" class="pages">News</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="nav-img"></div>
+            <h1 style="font-size: 55px;width: 60px;margin-left: 100px;margin-top: -400px;">Investor Relations</h1>
+        </div>
+        <div class="main-content">
+            <div class="top-section">
+                <div class="corp-overview">
+                    <h1 style="text-align: center;font-size: 40px;">Corporate Overview</h1>
+                    <p style="text-align: center;font-size: 20px;">
+                        Ollieblox's Mission is to expand our community as big as possible and the CCU of Players up to a high rate. We want to make sure all players on Ollieblox are satisfied. And to have fun on Ollieblox.
+                        <br>
+                        <br>
+                        The power of our imagination can take us anywhere and thats how Ollieblox was made. And we hope that players will also get a very big imagination as well. Thats why we've made creation possible on Ollieblox.
+                    </p>
+                </div>
+            </div>
+            <div class="revenue">
+                <div class="lighten">
+                    <div class="revenue-num">
+                        <h1 class="light-text" style="text-align: center;">Revenue</h1>
+                        <p class="light-text" style="font-size: 40px;text-align: center;">376<strong style="color: rgb(0,100,255);">M</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="footer">
+                    <a href="https://totallynottg.github.io/corp.tgblox/home">
+                        <img src="https://totallynottg.github.io/corp.tgblox/l/img/text-1669918561590.png" class="logo">
+                    </a>
+                    <div class="links">
+                        <a href="https://totallynottg.github.io/en.help.tgblox/terms/terms-of-service" style="color: rgb(0,100,255);margin-left:120px;font-weight: 600;">TERMS</a>
+                        <p style="text-align: center;">© 2023 Olieblox Corporation. All Rights Reserved</p>
+                        <p style="text-align: center;">POWERED BY <a>tginvestsites</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
